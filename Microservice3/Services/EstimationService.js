@@ -18,35 +18,6 @@ function ZoneAgregate(prop){
   }
 }
 
-// function TypeAggregate(type){
-//   if(type==="Apartment"){
-//     basePrice=250;
-//   }else{
-//     basePrice=300;
-//   }
-//   return basePrice;
-// }
-
-// function RoomAggregate(rooms){
-//   basePrice=rooms*5;
-//   return basePrice;
-// }
-
-// function BathroomAggregate(bathrooms){
-//   basePrice=bathrooms*2;
-//   return basePrice;
-// }
-
-// function GarageAggregate(garageSpace){
-//   basePrice=garageSpace*2;
-//   return basePrice;
-// }
-
-// function GardenAggregate(gardenArea){
-//   basePrice=gardenArea*2;
-//   return basePrice;
-// }
-
 function Estimation(basePrice, Area){
   return basePrice*Area;
 }
